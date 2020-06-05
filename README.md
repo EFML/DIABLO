@@ -44,11 +44,8 @@ In finite difference (wall bounded) directions, the grid is defined as follows:
 (Here the y-direction will be shown, but others should be treated the same)
 The points outside the domain are ghost cells and are used to apply the desired boundary conditions.  In the case of one wall-bounded direction, the X and Z velocities (U1 and U3) are defined at the GYF points along with the pressure.  Vertical velocity (U2) is defined at GY points. The GYF points are by definition located halfway between neighboring GY points.
 
-<object data="imgs/grid.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="imgs/grid.pdf">
-        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="imgs/grid.pdf">Download PDF</a>.</p>
-    </embed>
-</object>
+The table below attempts to graphically explain the computational domain in the Y direction.
+
 
 ||  | |
  | --- | :---: | --- |     
@@ -73,6 +70,13 @@ The points outside the domain are ghost cells and are used to apply the desired 
  | |                   *        |    GY(1) |
 | GYF(0)   |         o | |
 
+A full discription of the computational domain can be found below.
+
+<object data="imgs/grid.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="imgs/grid.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="imgs/grid.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
 
 Enjoy! 
 
